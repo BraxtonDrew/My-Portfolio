@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Hello, World!</h1>
+        <h1 style="color:seagreen">Hello, World!</h1>
         <nav>
             <a href="[insert social media]">About Me</a> |
             <a href="https://nwscc.edu/">My Favorite Webpage</a> |
@@ -18,7 +19,7 @@
     <main>
         <section>
             <h2>About me</h2>
-            <p>Hi! I'm <B>Braxton</B>,
+            <p style="color:aliceblue; font-weight:lighter">Hi! I'm <B>Braxton</B>,
             <p>My hobbies include:</p>
             <ul>
                 <li>Gaming</li>
@@ -27,21 +28,26 @@
             </ul>
             <p>My dream is to become a professional 3D modeler</p>
         </section>
+
+        <div class="flex-container">
         <section>
             <h2>Local Image</h2>
-            <img src="img/Myphoto.jpg.png" alt="My Local Image" width="300">
+            <img src="img/myphoto.jpg" alt="My Local Image" width="300" style="border: 6px salmon; border-radius: 9px;">
             <p>This is a picture of my favorite game</p>
         </section>
+
         <section>
             <h2>Online Image</h2>
             <img src="https://cdna.artstation.com/p/assets/images/images/061/301/488/large/albert-guest-frenzy.jpg" alt="My online Image" width="200">
             <p>This is a picture of the frenzy flame</p>
         </section>
+
         <section>
             <h2>My Favorite Place To Eat</h2>
             <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.551769237248!2d-87.66989642352127!3d34.74169107290511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887d4f1539001071%3A0xcd44b9032d769dd9!2sFuji%20168!5e0!3m2!1sen!2sus!4v1758436125025!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+        </div>
     </main>
 
     <footer>

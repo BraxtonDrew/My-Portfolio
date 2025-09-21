@@ -1,0 +1,25 @@
+/* style.css */
+body {
+background-color: #209669; /* green background */
+font-family: 'Times New Roman', Times, serif,
+}
+header {
+background-color: #E3e1c6; /* dusty white background */
+color: rgb(20, 20, 20); /* black text */
+padding: 15px;
+text-align: center;
+}
+nav a {
+color: #131ec2; /* gold navigation links */
+text-decoration: none;
+margin: 0 12px;
+}
+nav a:hover {
+text-decoration: underline;
+}
+footer {
+font-size: 0.7em;
+text-align: center;
+padding: 12px;
+color:#d8abf1;
+}
