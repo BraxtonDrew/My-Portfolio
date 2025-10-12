@@ -1,0 +1,97 @@
+/* style.css */
+body {
+  background-color: #209669; /* sea green */
+  font-family: 'Times New Roman', Times, serif;
+  color: #fdfdfd; /* soft white text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #d2f0e1; /* pale mint */
+  color: #1a3c34; /* deep green text */
+  padding: 15px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav a {
+  color: #f1b32c; /* warm gold */
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  padding: 12px;
+  color: #cceadf; /* soft mint */
+}
+
+/* Section styling */
+section {
+  background-color: #ffffff;
+  color: #1a3c34;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-rounded {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-shadow {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  border: none;
+  cursor: pointer;
+}
+
+/* Image hover effect */
+.hover-img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.hover-img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* Quote box styling */
+.quote-box {
+  font-style: italic;
+  background-color: #e6fff5;
+  border-left: 5px solid #209669;
+  padding: 15px;
+  margin: 20px 0;
+  color: #1a3c34;
+}
+
